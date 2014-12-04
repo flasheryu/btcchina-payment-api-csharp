@@ -16,8 +16,8 @@ namespace PurchaseOrderSample
 			ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
 			// Enter your personal API access key and secret here
-			string accessKey = "d027ab18-5be7-4e1b-ad6e-363c9fd38398";
-			string secretKey = "1645b9e7-3d28-4b83-86a6-e80fd1ee6886";
+			string accessKey = "<YOUR PAYMENT ACCESS KEY>";
+			string secretKey = "<YOUR PAYMENT SECRET KEY>";
 			string method = "createPurchaseOrder";
 
 			TimeSpan timeSpan = DateTime.UtcNow - new DateTime (1970, 1, 1);
